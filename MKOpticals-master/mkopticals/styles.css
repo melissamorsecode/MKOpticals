@@ -1,0 +1,163 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	background-color: #D3D0CB;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #2E5266;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 70px;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+}
+.log{
+    margin-top: 10px;
+}
+.pageTitle {
+	text-align: center;
+	font-size: 75px;
+	margin-top: 0;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 9px;
+	background-color: inherit;
+	font-family: inherit;
+	
+	height: 57px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #6a8eae;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.container {
+	margin-left: 5%;
+}
+.img1{
+width: 295px;
+    padding: 12px;}
+.imgItem{
+	width: 500px;
+	padding: 35px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #2E5266;
+	color: white;
+	text-align: center;
+}
+
+.main {
+	height: 500px;
+	width: 320px;
+	background-color: #E7CB66;
+	border: solid;
+	border-color: black;
+	float: left;
+	margin: 40px;
+}
+.mainItem {
+	height: 400px;
+	width: 570px;
+	background-color: #E7CB66;
+	border: solid;
+	border-color: black;
+	float: left;
+	margin: 40px;
+}
+.content{
+    float: left;
+    padding: 12px;
+    
+}
+.details{
+    font-size: 19px;
+}
+
+.titlename {
+	text-align: center;
+}
+
+.titlenameItem {
+	text-align: center;
+    margin-top: -15px;
+}
+
+.discription {
+	text-align: center;
+}
+
+.menu {
+	margin-left: 69%;
+}
+
+.main-1 {
+	padding: 65px;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+    
+}
+.abc{
+    float: left;
+  margin-top: 14px;
+}
+.logofont{
+    float: left;
+    color: #d7dcd7;
+   
+}
+.logoTitle{
+    margin-top: -14px;
+    margin-left: -16px;
+}
